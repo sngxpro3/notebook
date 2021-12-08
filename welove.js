@@ -5,7 +5,7 @@
 
 重写：
 
-https://tree.game.api.welove520.com/v1/game/tree/o url script-request-body welove.js
+https://tree.game.api.welove520.com/v1/game/tree/o url script-request-body https://raw.githubusercontent.com/sngxpro3/notebook/main/welove.js
 
 主机名：
 
@@ -14,7 +14,7 @@ tree.game.api.welove520.com
 
 定时：
 
-1 0 * * * 
+1 0 * * * https://raw.githubusercontent.com/sngxpro3/notebook/main/welove.js, tag=welovetree, enabled=true
 
 
 */
